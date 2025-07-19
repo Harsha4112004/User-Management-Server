@@ -1,5 +1,5 @@
 # User-Management-Server
-A lightweight and scalable server-side application for managing users with full CRUD (Create, Read, Update, Delete) operations. Built to support user data handling, authentication stubs, and role-based logic with RESTful API architecture.
+A lightweight server-side application for managing users with full CRUD (Create, Read, Update, Delete) operations. Built to support user data handling, authentication stubs, and role-based logic with RESTful API architecture.
 
 ## 🚀 Features
 - ✅ Create new users
