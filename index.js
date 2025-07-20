@@ -37,7 +37,7 @@ app.put('/update/:id',(req,res)=>{
 
 app.delete('/delete/:id',(req,res)=>{
     const key = list.findIndex(x=>x.id===parseInt(req.params.id))
-    if (!key) {
+    if (key===-1) {
         return res.status(404).send("Id not found")
     }
     list.splice(key,1)
