@@ -75,3 +75,4 @@ npm run dev
 - Make sure to set Content-Type: application/json in headers for POST and PUT requests.
 - User data is stored in memory (no database used).
 - IDs auto-increment.
+- Use 127.0.0.1:3000 for local hostname
